@@ -10,7 +10,6 @@
 		$scope.todoList=[
 
 		];
-<<<<<<< HEAD
 		//2、添加任务
 		$scope.newTask="";
 		$scope.add=function () {
@@ -48,23 +47,5 @@
 		$scope.save=function () {
 			$scope.updateId=-1;
         }
-=======
-        //2、添加任务
-        $scope.newTask="";
-        $scope.add=function () {
-            var id;
-            if(!$scope.newTask){
-                return;
-            }
-            if($scope.todoList.length===0){
-                id=0;
-            }else{
-                id=$scope.todoList[$scope.todoList.length-1].id+1;
-            }
-            $scope.todoList.push({id:id,name:$scope.newTask,isCompleted:false});
-            $scope.newTask="";
-            console.log($scope.todoList);
-        };
->>>>>>> origin/master
     }])
 })(angular);
