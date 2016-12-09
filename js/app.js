@@ -95,7 +95,7 @@
         $scope.getCount=function () {
             var count=0;
             $scope.todoList.forEach(function (value) {
-                //value急速当前元素
+                //value就是当前元素
                 if(!value.isCompleted){
                     count+=1;
                 }
