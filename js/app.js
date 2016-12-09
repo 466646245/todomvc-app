@@ -46,6 +46,45 @@
         };
 		$scope.save=function () {
 			$scope.updateId=-1;
+        };
+
+		//5.切换任务选中状态
+        $scope.isCheckedAll=false;
+        $scope.selectAll=function () {
+            for(var i=0;i<$scope.todoList.length;i++){
+                $scope.todoList[i].isCompleted=$scope.isCheckedAll;
+            }
+        };
+        //6.清除已完成的任务
+        $scope.clearCompleted=function () {
+            var temp=[];
+            for(var i=0;i<$scope.todoList.length;i++){
+                var todo=$scope.todoList[i];
+                if(!todo.isCompleted){
+                    temp.push(todo);
+                }
+            }
+            $scope.todoList=temp;
+        };
+        //6.1 控制清除按钮 的展示与隐藏
+        $scope.isShow=function () {
+            for(var i=0;i<$scope.todoList.length;i++){
+                var todo=$scope.todoList[i];
+                if(todo.isCompleted){
+                    return true;
+                }
+            }
+            return false;
+        };
+        //7. 显示未完成的任务数
+        $scope.getCount=function () {
+            var count=0;
+            $scope.todoList.forEach(function (value) {
+                if(!value.isCompleted){
+                    count+=1;
+                }
+            });
+            return count;
         }
     }])
 })(angular);
