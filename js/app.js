@@ -25,6 +25,27 @@
 			$scope.todoList.push({id:id,name:$scope.newTask,isCompleted:false});
 			$scope.newTask="";
 			console.log($scope.todoList);
+        };
+		//3.删除一条任务
+        $scope.remove=function (id) {
+            for(var i=0;i<$scope.todoList.length;i++){
+                var temp=$scope.todoList[i];
+                if(temp.id==id){
+                    $scope.todoList.splice(i,1);
+                    return;
+                }
+            }
+        };
+
+
+        //4. 修改任务
+		//添加类名的条件：$scope.updateId与当前元素的ID相同
+		$scope.updateId=-1;
+		$scope.update=function (id) {
+			$scope.updateId=id;
+        };
+		$scope.save=function () {
+			$scope.updateId=-1;
         }
     }])
 })(angular);
