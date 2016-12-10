@@ -7,9 +7,7 @@
         console.log(todoSrv.test);
         //1、展示任务列表
         //思路：创建一个数据列表，然后通过ng-repeat指令将数据展示
-        $scope.todoList=[
-
-        ];
+        $scope.todoList=todoSrv.getData();
         //2、添加任务
         //思路：直接给数据todoList添加即可
         $scope.newTask="";
