@@ -4,7 +4,7 @@
 	// Your starting point. Enjoy the ride!
 	//创建模块
 	var app=angular.module("todoApp",[]);
-	app.controller("TodoController",['$scope',function ($scope) {
+	app.controller("TodoController",['$scope','$location',function ($scope,$location) {
 		//1、展示任务列表
 		//思路：创建一个数据列表，然后通过ng-repeat指令将数据展示
 		$scope.todoList=[
@@ -101,6 +101,26 @@
                 }
             });
             return count;
-        }
+        };
+        //8.显示不同状态的任务
+        $scope.status={};
+        //9.根据URL变化显示相应的任务
+        $scope.location=$location;
+        $scope.$watch('location.url()',function (newValue,oldValue) {
+            switch(newValue) {
+                case '/':
+                    $scope.status = {};
+                    break;
+                case '/active':
+                    $scope.status = {isCompleted: false};
+                    break;
+                case '/completed':
+                    $scope.status = {isCompleted: true};
+                    break;
+                default:
+                    $scope.status = {};
+                    break;
+            }
+        })
     }])
 })(angular);
