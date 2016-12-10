@@ -47,9 +47,7 @@
             //5.切换任务完成状态
             this.selectAll=function (isCheckedAll) {
                 for(var i=0;i<todoList.length;i++){
-                    isCheckedAll?
-                        todoList[i].isCompleted=true:
-                        todoList[i].isCompleted=false;
+                    todoList[i].isCompleted=isCheckedAll;
                 }
                 this.saveData();
             };
@@ -69,5 +67,5 @@
                 //todoList.length=0;
                 //[].push.apply(todoList,temp);
             };
-        }])
-})(angular)
+        }]);
+})(angular);
