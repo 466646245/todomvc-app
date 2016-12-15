@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d69abfe-e199-447a-b262-678db68ca0a5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-route/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-route/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-route/angular-route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-route/angular-route.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-route/angular-route.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-route/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-route/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-route/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todomvc-app-css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todomvc-app-css/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todomvc-app-css/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todomvc-common/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todomvc-common/base.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todomvc-common/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todomvc-common/readme.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -248,7 +232,7 @@
       <workItem from="1481542908879" duration="13000" />
       <workItem from="1481546154401" duration="642000" />
       <workItem from="1481590629129" duration="148000" />
-      <workItem from="1481809511644" duration="1062000" />
+      <workItem from="1481809511644" duration="1101000" />
     </task>
     <task id="LOCAL-00001" summary="双击修改任务">
       <created>1481272321514</created>
@@ -341,11 +325,18 @@
       <option name="project" value="LOCAL" />
       <updated>1481590699282</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="update">
+      <created>1481810627166</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1481810627166</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29545000" />
+    <option name="totallyTimeSpent" value="29584000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="647" y="22" width="1068" height="971" extended-state="0" />
