@@ -102,7 +102,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../第五天/moviecat-app" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
@@ -187,7 +187,7 @@
       <workItem from="1481542705305" duration="16000" />
       <workItem from="1481542908879" duration="13000" />
       <workItem from="1481546154401" duration="642000" />
-      <workItem from="1481590629129" duration="44000" />
+      <workItem from="1481590629129" duration="148000" />
     </task>
     <task id="LOCAL-00001" summary="双击修改任务">
       <created>1481272321514</created>
@@ -273,11 +273,18 @@
       <option name="project" value="LOCAL" />
       <updated>1481590669343</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="update">
+      <created>1481590699282</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1481590699282</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28379000" />
+    <option name="totallyTimeSpent" value="28483000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="647" y="22" width="1068" height="971" extended-state="0" />
